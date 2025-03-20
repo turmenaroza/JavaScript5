@@ -1,4 +1,4 @@
-let numero = prompt ('Digite seu número')
+//let numero = prompt ('Digite seu número')
 
 function verificarPar (){
         console.log(numero)
@@ -9,5 +9,15 @@ function verificarPar (){
         }
     }
 
-    verificarPar();
+    //verificarPar();
 
+
+    
+function calcular(n, n2){
+ console.soma (n + n2 )
+ console.subtracao (n - n2 )
+ console.multiplicacao (n * n2 )
+ console.divisao (n / n2 )
+}
+
+ calcular ()
