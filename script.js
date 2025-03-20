@@ -32,8 +32,14 @@ function calcular(n, n2) {
 //}
 //while (n > 0);
 
-let palavra = prompt('digite uma palavra ');
+//let palavra = prompt('digite uma palavra ');
 function inverterTexto() {
     console.log(palavra.split('').reverse().join(''));
 }
-inverterTexto(palavra)
+//inverterTexto(palavra);
+
+let palavra = prompt('digite uma palavra ')
+function contarCaracteres(){
+console.log (palavra.length().trim())
+}
+contarCaracteres(palavra)
