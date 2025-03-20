@@ -12,8 +12,8 @@ function verificarPar (){
     //verificarPar();
 
 
-let n = parseFloat(prompt ('Digite seu número'));
-let n2 = parseFloat(prompt ('Digite seu número'));
+//let n = parseFloat(prompt ('Digite seu número'));
+//let n2 = parseFloat(prompt ('Digite seu número'));
 function calcular(n, n2){
  console.log(n + n2 );
  console.log (n - n2 );
@@ -25,5 +25,9 @@ function calcular(n, n2){
 } 
 }
 
- calcular (n, n2)
-
+ //calcular (n, n2)
+let n = 10
+do{
+    console.log ( n --);
+}
+while (n > 0);
