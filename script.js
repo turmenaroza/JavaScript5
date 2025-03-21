@@ -105,9 +105,20 @@ function verificarSinal(){
 }
 //verificarSinal();
 
-let TCelsius = parseFloat(prompt('digite uma temperatura em graus Celsius '));
+//let TCelsius = parseFloat(prompt('digite uma temperatura em graus Celsius '));
 function converterTemperatura(){
     console.log ((TCelsius * 1.8) + 32);
     console.log ('é a temperatura em Fahrenheit');
 }
-converterTemperatura();
+//converterTemperatura();
+
+let n = 0
+let soma = 0
+
+     while (n < 101) {
+        n ++
+        console.log (n)
+        soma = soma + n
+       
+    }
+    console.log (soma)
