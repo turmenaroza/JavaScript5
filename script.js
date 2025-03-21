@@ -64,11 +64,21 @@ function mensagemPersonalizada(mensagem, nome){
 }
 //mensagemPersonalizada(mensagem, nome);
 
-let n = parseFloat(prompt ('Digite seu número'));
-let n2 = parseFloat(prompt ('Digite seu número'));
-let n3 = parseFloat(prompt ('Digite seu número'));
+//let n = parseFloat(prompt ('Digite seu número'));
+//let n2 = parseFloat(prompt ('Digite seu número'));
+//let n3 = parseFloat(prompt ('Digite seu número'));
 
 function media(n,n2,n3) {
     console.log ((n+n2+n3)/3 );
 }
-media(n,n2,n3);
+//media(n,n2,n3);
+
+
+for (n = 1; n < 21; n++){
+    console.log (n)
+    if (n % 3 === 0) {
+        console.log('esse número é múltiplo de 3');
+    } else {
+        console.log('esse número não é múltiplo de 3');
+    }
+}
