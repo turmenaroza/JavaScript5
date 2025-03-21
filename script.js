@@ -112,13 +112,27 @@ function converterTemperatura(){
 }
 //converterTemperatura();
 
-let n = 0
-let soma = 0
+//let n = 0
+//let soma = 0
 
-     while (n < 101) {
-        n ++
-        console.log (n)
-        soma = soma + n
+     //while (n < 101) {
+        //n ++
+        //console.log (n);
+        //soma = soma + n;
        
-    }
-    console.log (soma)
+   // }
+   // console.log (soma);
+
+
+   let text = prompt('digite  seu texto '); 
+
+   function  substituirPalavra(text){
+    console.log (text.replace(/azul/g, 'vermelho'));
+   }
+
+   substituirPalavra(text);
+
+
+
+
+ 
