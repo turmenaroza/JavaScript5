@@ -38,10 +38,21 @@ function inverterTexto() {
 }
 //inverterTexto(palavra);
 
-let palavra = prompt('digite uma palavra ');
+//let palavra = prompt('digite uma palavra ');
 function contarCaracteres(){
 console.log (palavra.length);
 }
-contarCaracteres(palavra);
+//contarCaracteres(palavra);
 
-
+class Carro {
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+    exibirInformacoes() {
+        console.log(`Carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    }
+}
+const meuCarro = new Carro('BMW', 'M8 Couple', '2023');
+meuCarro.exibirInformacoes();
