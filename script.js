@@ -74,11 +74,21 @@ function media(n,n2,n3) {
 //media(n,n2,n3);
 
 
-for (n = 1; n < 21; n++){
-    console.log (n)
-    if (n % 3 === 0) {
-        console.log('esse número é múltiplo de 3');
+//for (n = 1; n < 21; n++){
+    //console.log (n)
+    //if (n % 3 === 0) {
+       // console.log('esse número é múltiplo de 3');
+   // } else {
+        //console.log('esse número não é múltiplo de 3');
+   // }
+//}
+
+let palavra = prompt('digite uma palavra ');
+function verificarPalindromo(){
+    if (palavra === palavra.split('').reverse().join('')) {
+        console.log('essa palavra é um palíndromo');
     } else {
-        console.log('esse número não é múltiplo de 3');
-    }
+        console.log('essa palavra não é um palíndromo');
+    } 
 }
+verificarPalindromo()
