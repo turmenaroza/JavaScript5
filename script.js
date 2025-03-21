@@ -57,9 +57,18 @@ class Carro {
 const meuCarro = new Carro('BMW', 'M8 Couple', '2023');
 //meuCarro.exibirInformacoes();
 
-let nome = prompt('digite um nome ');
+//let nome = prompt('digite um nome ');
 const mensagem = 'Olá';
 function mensagemPersonalizada(mensagem, nome){
     console.log (mensagem + nome);
 }
-mensagemPersonalizada(mensagem, nome);
+//mensagemPersonalizada(mensagem, nome);
+
+let n = parseFloat(prompt ('Digite seu número'));
+let n2 = parseFloat(prompt ('Digite seu número'));
+let n3 = parseFloat(prompt ('Digite seu número'));
+
+function media(n,n2,n3) {
+    console.log ((n+n2+n3)/3 );
+}
+media(n,n2,n3);
