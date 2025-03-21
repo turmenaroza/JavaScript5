@@ -83,7 +83,7 @@ function media(n,n2,n3) {
    // }
 //}
 
-let palavra = prompt('digite uma palavra ');
+//let palavra = prompt('digite uma palavra ');
 function verificarPalindromo(){
     if (palavra === palavra.split('').reverse().join('')) {
         console.log('essa palavra é um palíndromo');
@@ -91,4 +91,16 @@ function verificarPalindromo(){
         console.log('essa palavra não é um palíndromo');
     } 
 }
-verificarPalindromo()
+//verificarPalindromo();
+
+let n = parseFloat(prompt('digite um número '));
+function verificarSinal(){
+    if (n > 0) {
+        console.log('esse número é positivo ');
+    } else if (n === 0 ) {
+        console.log('esse número é zero '); 
+    } else {
+        console.log('esse número é negativo ');  
+    }
+}
+verificarSinal();
