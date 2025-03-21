@@ -58,8 +58,8 @@ const meuCarro = new Carro('BMW', 'M8 Couple', '2023');
 //meuCarro.exibirInformacoes();
 
 let nome = prompt('digite um nome ');
-const mensagem = 'Olá'
+const mensagem = 'Olá';
 function mensagemPersonalizada(mensagem, nome){
-    console.log (mensagem + nome)
+    console.log (mensagem + nome);
 }
-mensagemPersonalizada(mensagem, nome)
+mensagemPersonalizada(mensagem, nome);
