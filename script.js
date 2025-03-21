@@ -93,7 +93,7 @@ function verificarPalindromo(){
 }
 //verificarPalindromo();
 
-let n = parseFloat(prompt('digite um número '));
+//let n = parseFloat(prompt('digite um número '));
 function verificarSinal(){
     if (n > 0) {
         console.log('esse número é positivo ');
@@ -103,4 +103,11 @@ function verificarSinal(){
         console.log('esse número é negativo ');  
     }
 }
-verificarSinal();
+//verificarSinal();
+
+let TCelsius = parseFloat(prompt('digite uma temperatura em graus Celsius '));
+function converterTemperatura(){
+    console.log ((TCelsius * 1.8) + 32);
+    console.log ('é a temperatura em Fahrenheit');
+}
+converterTemperatura();
