@@ -38,8 +38,10 @@ function inverterTexto() {
 }
 //inverterTexto(palavra);
 
-let palavra = prompt('digite uma palavra ')
+let palavra = prompt('digite uma palavra ');
 function contarCaracteres(){
-console.log (palavra.length().trim())
+console.log (palavra.length);
 }
-contarCaracteres(palavra)
+contarCaracteres(palavra);
+
+
